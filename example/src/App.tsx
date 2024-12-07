@@ -1,12 +1,10 @@
-import { Text, View, StyleSheet } from 'react-native';
-import { multiply } from 'react-native-password-validator';
-
-const result = multiply(3, 7);
+import { StyleSheet, View } from 'react-native';
+import PasswordValidator from 'react-native-password-validator';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <PasswordValidator />;
     </View>
   );
 }
