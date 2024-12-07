@@ -3135,7 +3135,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@release-it/conventional-changelog@npm:^9.0.2":
+"@release-it/conventional-changelog@npm:latest":
   version: 9.0.3
   resolution: "@release-it/conventional-changelog@npm:9.0.3"
   dependencies:
@@ -11740,7 +11740,7 @@ __metadata:
     "@commitlint/config-conventional": ^17.0.2
     "@evilmartians/lefthook": ^1.5.0
     "@react-native/eslint-config": ^0.73.1
-    "@release-it/conventional-changelog": ^9.0.2
+    "@release-it/conventional-changelog": latest
     "@types/jest": ^29.5.5
     "@types/react": ^18.2.44
     commitlint: ^17.0.2
@@ -11754,7 +11754,7 @@ __metadata:
     react-native: 0.76.3
     react-native-builder-bob: ^0.35.2
     react-native-reanimated: ^3.16.3
-    release-it: ^17.10.0
+    release-it: latest
     typescript: ^5.2.2
   peerDependencies:
     react: "*"
@@ -12135,7 +12135,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"release-it@npm:^17.10.0":
+"release-it@npm:latest":
   version: 17.10.0
   resolution: "release-it@npm:17.10.0"
   dependencies:
