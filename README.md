@@ -2,6 +2,8 @@
 
 A customizable React Native component for evaluating and displaying password strength. It provides password recommendations, dynamic status indicators, and support for password confirmation with visual feedback.
 
+![password-validator-demo-2x](https://github.com/user-attachments/assets/96df59e8-643a-4596-9d42-d4461ecca943)
+
 ## Installation
 
 ```sh
