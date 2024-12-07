@@ -4,7 +4,7 @@ import PasswordValidator from 'react-native-password-validator';
 export default function App() {
   return (
     <View style={styles.container}>
-      <PasswordValidator />;
+      <PasswordValidator />
     </View>
   );
 }
