@@ -19,7 +19,7 @@ type Props = {
   onPasswordChange?: (password: string) => void;
   showRecomendations?: boolean;
   colorPalette?: { [key: string]: string };
-  strengthText?: string[];
+  strengthText?: [string, string, string, string];
 };
 
 /**
@@ -86,9 +86,6 @@ const PasswordValidator = ({
         colors.yellow = colorPalette.thirdColor ?? colors.yellow;
         colors.green = colorPalette.forthColor ?? colors.green;
         colors.warning = colorPalette.warning ?? colors.warning;
-        colors.black = colors.black;
-        colors.darkGray = colors.darkGray;
-        colors.gray = colors.gray;
       }
     };
     setUserColors();
